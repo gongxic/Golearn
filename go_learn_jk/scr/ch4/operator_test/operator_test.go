@@ -1,6 +1,8 @@
 package operator_test
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestCompareArry(t *testing.T) {
 	a := [...]int{1, 2, 3, 4}
