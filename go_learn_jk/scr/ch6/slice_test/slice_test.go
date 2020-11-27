@@ -24,3 +24,7 @@ func TestSlinceGrowing(t *testing.T) {
 		t.Log(len(s), cap(s))
 	}
 }
+
+func TestSliceShareMemory(t *testing.T) {
+
+}
